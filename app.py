@@ -70,6 +70,3 @@ def send_whatsapp_messages():
 @app.route("/",methods=["GET"])
 def sayHI():
     return jsonify({"msg":"hello"})
-
-if __name__ == '__main__':
-    app.run(debug=True)
