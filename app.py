@@ -72,5 +72,5 @@ def send_whatsapp_messages():
 def sayHI():
     return jsonify({"message":"Welcome"})
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
